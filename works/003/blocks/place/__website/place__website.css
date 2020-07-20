@@ -1,0 +1,31 @@
+.place__website {
+  max-width: 484px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-area: url;
+}
+
+@media (max-width: 1024px) {
+  .place__website {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .place__website {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .place__website {
+  display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__website {
+  display: none;
+  }
+}

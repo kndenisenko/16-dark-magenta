@@ -1,0 +1,9 @@
+.resources__logo-zone {
+  width: 1100px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px auto 217px auto;
+  padding: 0;
+}

@@ -1,0 +1,21 @@
+.footer__menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .footer__menu {
+  flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 745px) { /* смена состояния футера, чтобы он не ломался при разрешении ниже 745px */
+  .footer__menu {
+    flex-direction: column;
+    }
+}
+
+

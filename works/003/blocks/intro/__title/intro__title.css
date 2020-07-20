@@ -1,0 +1,14 @@
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  /* identical to box height, or 107% */
+  color: #FFFFFF;
+  margin: 0
+}
+
+@media (max-width: 768px) {
+.intro__title {
+  margin: 0
+  }
+  }

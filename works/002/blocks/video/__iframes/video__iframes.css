@@ -1,0 +1,8 @@
+.video__iframes {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 0 auto;
+  position: inherit;
+  top: 50px;
+  left: 0px;
+}

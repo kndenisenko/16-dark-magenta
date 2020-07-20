@@ -1,0 +1,9 @@
+.mdr-header__url {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.mdr-header__url:hover {
+  text-decoration: underline;
+}

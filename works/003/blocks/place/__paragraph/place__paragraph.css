@@ -1,0 +1,37 @@
+.place__paragraph {
+  max-width: 484px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  margin: 0;
+  grid-area: paragraph;
+}
+
+@media (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__paragraph {
+    max-width: 352px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* медиа-запрос добавлен для того, чтобы вёрстка не разъёезажась при меньших разрешениях. Кроме того, так блок выглядит лучше при разрешении от 500 пикселей */
+@media (max-width: 500px) {
+  .place__paragraph {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paragraph {
+    margin: 0 16px;
+  }
+}

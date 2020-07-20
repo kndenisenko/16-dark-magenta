@@ -1,0 +1,16 @@
+.page {
+  max-width: 1280px;
+  font-family: Inter, Arial, sans-serif; /* По брифу везде используется одинаковый шрифт, поэтому задаём его всем элементам */
+  font-style: normal; /* Тоже самое и со стилем, других нет */
+  color: #FFFFFF;; /* Тоже самое и с цветом */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  padding-top: 28px;
+}
+
+@media (max-width: 320px) {
+  .page {
+    padding-top: 16px;
+  }
+}

@@ -1,0 +1,11 @@
+.logo_place_header {
+  background-image: url(../../../images/logo_place_header.svg);
+  width: 183px;
+  height: 32px;
+  /* justify-content: start;
+  align-self: flex-start; */
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 3;
+}

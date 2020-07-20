@@ -1,0 +1,78 @@
+/* Отладочные свойства , снять перед выкаткой в тестовую эксплуатацию / Dev-deps, to be removed before staging
+
+
+    Выделение тэгов блоков стилем границ / Block tag distinguishing by border style */
+
+header {
+  outline-style: groove;
+  outline-color: lightslategrey;
+}
+
+main {
+  outline-style: double;
+  outline-color: lightslategrey;
+}
+
+footer {
+  outline-style: ridge;
+  outline-color: lightslategrey;
+}
+
+div {
+  outline-style: solid;
+  outline-color: lightslategrey;
+}
+
+section {
+  outline-style: outset;
+  outline-color: lightslategrey;
+}
+
+article {
+  outline-style: inset;
+  outline-color: lightslategrey;
+}
+
+h1 {
+  outline-style: ridge;
+  outline-color: thistle;
+}
+
+h2 {
+  outline-style: ridge;
+  outline-color: lightpink;
+}
+
+p {
+  outline-style: groove;
+  outline-color: lightsalmon;
+}
+
+nav {
+  outline-style: dashed;
+  outline-color: navajowhite;
+}
+
+img {
+  outline-style: dotted;
+  outline-color: palevioletred;
+}
+
+ul,
+ol,
+dl {
+  outline-style: dashed;
+  outline-color: darkolivegreen;
+}
+
+li,
+dt,
+dd {
+  outline-style: dotted;
+  outline-color: darkkhaki;
+}
+
+table {
+  outline-style: ridge;
+  outline-color: darkslateblue;
+}

@@ -1,0 +1,16 @@
+.cards__item {
+  margin: 60px 100px 0 0;
+  max-width: 240px;
+}
+
+.cards__item:nth-child(3n) {
+  margin: 60px 0 60px 0;
+}
+
+.cards__item:nth-child(4n) {
+  margin: 60px 100px 0 0;
+}
+
+.cards__item:nth-child(5n) {
+  margin: 60px 0 0 0;
+}

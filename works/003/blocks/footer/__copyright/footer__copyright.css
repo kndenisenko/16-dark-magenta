@@ -1,0 +1,21 @@
+.footer__copyright {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: right;
+  color: #FFFFFF;
+  margin-left: auto;
+}
+
+@media (max-width: 320px) {
+  .footer__copyright {
+    align-self: flex-start;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+
+    margin-left: 0;
+
+ }
+}

@@ -1,0 +1,27 @@
+.places {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(auto-fill, 1fr);
+  margin: 92px 148px 0 148px;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    margin: 92px 48px 0 48px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .places {
+    margin: 88px 24px 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    /* display: grid; */
+    margin: 64px 0 0 0;
+  }
+
+}

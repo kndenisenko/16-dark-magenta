@@ -1,0 +1,32 @@
+.cover__title {
+  max-width: 560px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
+  color: #FFFFFF;
+  align-self: center;
+  margin: 245px 0 32px 0;
+  z-index: 3;
+}
+
+@media (max-width: 1024px) {
+  .cover__title {
+    margin: 195px 0 32px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__title {
+    font-size: 9.375vw; /* Шрифт задан через wv, чтобы он подстраивался под экран и блок меньше разъезжался при уменьшении разрешения */
+    margin: 115px 0 32px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 33px 16px 16px 16px;
+  }
+}

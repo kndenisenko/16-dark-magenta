@@ -1,0 +1,24 @@
+.lead__title {
+  max-width: 720px;
+  max-height: 200px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+  text-align: center;
+  margin: 56px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+.lead__title {
+  margin: 48px 0 0 0;
+}
+}
+
+
+@media (max-width: 768px) {
+.lead__title {
+  font-size: calc(0.125 * 100vw + 0px); /* Шрифт посчитан через calc() для плавного именения при смене разрешения с 768p до 320p. Значение высчитано по формуле y=mx+b из https://css-live.ru/articles/matematika-css-shlyuzov.html. В этом случае b=0. Можно заменить на font-size 12,5vw. Размеры шрифта в пикселях, при разрешениях 768p и 320p, соответствуют брифу. */
+  line-height: 104%;
+}
+}

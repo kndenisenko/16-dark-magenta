@@ -1,0 +1,38 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__background/cover__background.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__url/cover__url.css);
+
+.cover {
+  background-image: url(../../images/Untitled-2.jpg);
+  background-size: cover;
+  max-width: 1184px;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 12px 48px 0 48px; /* Здесь и далее: верхний отступ суммируется с нижним отступом предыдущего блока. */
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    margin: 12px 0 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    margin: 8px 0 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    margin: 16px 0 0 0; /* отсутп для точного соотвествия макету */
+  }
+}

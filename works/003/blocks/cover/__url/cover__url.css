@@ -1,0 +1,27 @@
+.cover__url {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  box-sizing: border-box;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.cover__url:before { /* теперь фон блока будет затемняться даже при наведении курсора на заголовок и подзаголовок */
+  content: '';
+  background: #2A2C2F;
+  align-self: stretch;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .3;
+  transition: opacity .5s ease-out;
+}
+
+.cover__url:hover:before {
+  opacity: .8;
+}
